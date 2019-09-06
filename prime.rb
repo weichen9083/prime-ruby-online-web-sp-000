@@ -3,7 +3,7 @@ def prime?(interger)
   if interger <=1
     return false 
     elsif (2..interger - 1).each do |i|
-      if value % i == 0
+      if interger % i == 0
       return false
     end
   end 
